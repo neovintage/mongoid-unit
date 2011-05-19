@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency("mongoid", ["~> 2.0"])
-
+  s.add_runtime_dependency("test/unit")
 end
