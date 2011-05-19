@@ -12,7 +12,8 @@ Gem::Specification.new do |s|
   s.summary     = %q{Test::Unit macros for Mongoid}
   s.description = %q{Test::Unit macros for Mongoid}
 
-  s.rubyforge_project = "mongoid-unit"
+  s.rubyforge_project         = "mongoid-unit"
+  s.required_rubygems_version = ">= 1.6.2"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
